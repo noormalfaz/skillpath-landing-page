@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Landing Page</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Bagian Awal Navigasi -->
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="navbar-1">
+                    <a href="#">
+                        <img class="logo" src="assets/Logo_1-removebg-preview.png" alt="Logo Sehatin">
+                    </a>
+                    <ul class="navbar-2">
+                        <li>
+                            <a href="#">Konsultasi</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">Pola Hidup Sehat</a>
+                            <div class="dropdown-content">
+                                <a href="#">Olahraga</a>
+                                <a href="#makanan">Makanan</a>
+                                <a href="#minuman">Minuman</a>
+                                <a href="#">Pola Tidur</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://skilvul.com" id="link">Skilvul</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="home_profil">
+                        <li>
+                            <p class="user">Hai, User</p>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img class="profil" src="assets/Gambar WhatsApp 2023-08-21 pukul 12.44.27.jpg"
+                                    alt="Poto Profil">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Bagian Akhir Navigasi -->
+
+    <!-- Bagian Awal Carousel -->
+    <section>
+        <div class="image-container">
+            <img src="assets/slide1.jpg" alt="Orang Sedang Berolahraga" class="image">
+            <div class="overlay"></div>
+            <p id="description">Sehatin adalah sebuah website yang menyediakan berbagai informasi
+                edukasi seputar kesehatan dan fitur konsultasi dokter. User bisa melihat informasi seputar olahraga,
+                makanan, minuman dan pola tidur.</p>
+        </div>
+    </section>
+    <!-- Bagian Akhir Carousel -->
+
+    <!-- Bagian Awal Informasi Kesehatan -->
+    <section>
+        <div class="informasi-kesehatan">
+            <h1 class="text-informasi">INFORMASI <span style="color: #5AAE73;">KESEHATAN</span></h1>
+            <img src="assets/Line 3.jpg" alt="Line" width="100%" height="1">
+            <div class="card">
+                <a href="">
+                    <div style="width:200px">
+                        <img src="assets/konsultasi.png" alt="Konsultasi" style="width:100%">
+                        <div class="text-card">
+                            <p>Konsultasi Dokter</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div style="width:200px">
+                        <img src="assets/olahraga.png" alt="Olahraga" style="width:100%">
+                        <div class="text-card">
+                            <p>Olahraga</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div style="width:200px">
+                        <img src="assets/makanan.png" alt="Makanan" style="width:100%">
+                        <div class="text-card">
+                            <p>Makanan</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#minuman">
+                    <div style="width:200px">
+                        <img src="assets/minuman.png" alt="Minuman" style="width:100%">
+                        <div class="text-card">
+                            <p>Minuman</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div style="width:200px">
+                        <img src="assets/pola tidur.png" alt="Pola Tidur" style="width:100%">
+                        <div class="text-card">
+                            <p>Pola Tidur</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Bagian Akhir Informasi Kesehatan -->
+
+    <!-- Bagian Awal Daftar Makanan -->
+    <section>
+        <div id="makanan" class="card-daftar-makanan">
+            <h1>Daftar <span style="color: #5AAE73;">Makanan</span></h1>
+            <ul id="list-makanan">
+                <li>Buah</li>
+                <li>Sayuran</li>
+                <li>Daging</li>
+            </ul>
+            <div id="list-daftar-makanan">
+                <div class="card-makanan">
+                    <img src="assets/pepaya.jpg" alt="Pepaya" width="210" height="150">
+                    <p>Pepaya</p>
+                    <div class="view-detail-makanan">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+                <div class="card-makanan">
+                    <img src="assets/mangga.jpg" alt="Mangga" width="210" height="150">
+                    <p>Mangga</p>
+                    <div class="view-detail-makanan">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+                <div class="card-makanan">
+                    <img src="assets/pisang.jpg" alt="Pisang" width="210" height="150">
+                    <p>Pisang</p>
+                    <div class="view-detail-makanan">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+                <div class="card-makanan">
+                    <img src="assets/jeruk.jpg" alt="Jeruk" width="210" height="150">
+                    <p>Jeruk</p>
+                    <div class="view-detail-makanan">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+                <div class="card-makanan">
+                    <img src="assets/alpukat.jpg" alt="Alpukat" width="210" height="150">
+                    <p>Alpukat</p>
+                    <div class="view-detail-makanan">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+                <div class="card-makanan">
+                    <img src="assets/semangka.jpg" alt="Semangka" width="210" height="150">
+                    <p>Semangka</p>
+                    <div class="view-detail-makanan">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+                <div class="card-makanan">
+                    <img src="assets/nanas.jpg" alt="Nanas" width="210" height="150">
+                    <p>Nanas</p>
+                    <div class="view-detail-makanan">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+                <div class="card-makanan">
+                    <img src="assets/lemon.jpg" alt="Lemon" width="210" height="150">
+                    <p>Lemon</p>
+                    <div class="view-detail-makanan">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bagian Akhir Daftar Makanan -->
+
+    <!-- Bagian Awal Daftar Minuman -->
+    <section>
+        <div id="minuman" class="card-daftar-minuman">
+            <h1>Daftar <span style="color: #5AAE73;">Minuman</span></h1>
+            <div id="list-daftar-minuman">
+                <div class="card-minuman">
+                    <img src="assets/jamu.jpg" alt="Jamu" width="270" height="150">
+                    <p>Jamu</p>
+                    <div class="view-detail-minuman">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+                <div class="card-minuman">
+                    <img src="assets/wedang.jpg" alt="Wedang" width="270" height="150">
+                    <p>Wedang</p>
+                    <div class="view-detail-minuman">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+                <div class="card-minuman">
+                    <img src="assets/infused-water.jpg" alt="Infused Water" width="270" height="150">
+                    <p>Infused Water</p>
+                    <div class="view-detail-minuman">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+                <div class="card-minuman">
+                    <img src="assets/jus-buah-dan-sayur.jpg" alt="Jus Buah dan Sayur" width="270" height="150">
+                    <p>Jus Buah dan Sayur</p>
+                    <div class="view-detail-minuman">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+                <div class="card-minuman">
+                    <img src="assets/susu.jpg" alt="Susu" width="270" height="150">
+                    <p>Susu</p>
+                    <div class="view-detail-minuman">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+                <div class="card-minuman">
+                    <img src="assets/teh.jpg" alt="Teh" width="270" height="150">
+                    <p>Teh</p>
+                    <div class="view-detail-minuman">
+                        <p>View Detail</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bagian Akhir Daftar Minuman -->
+
+    <!-- Bagian Awal Form -->
+    <section class="form-container">
+        <form class="form">
+            <h1>Identitas</h1>
+            <input type="text" id="name" placeholder="Masukkan Nama Anda">
+            <input type="text" id="city" placeholder="Masukkan Kota Anda">
+            <input type="email" id="email" placeholder="Masukkan Email Anda">
+            <input type="number" id="zip-code" placeholder="Masukkan Kode Pos">
+            <input type="checkbox" id="status">
+            <label id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah
+                sesuai</label>
+            <button id="submit-form" type="submit">Submit</button>
+            <div id="warning"></div>
+        </form>
+    </section>
+    <!-- Bagian Akhir Form -->
+
+    <!-- Bagian Awal Footer -->
+    <footer>
+        <img class="line" src="assets/Line 3.jpg" alt="Line" width="1240" height="1">
+        <div class="footer">
+            <div>
+                <img class="logo" src="assets/Logo_1-removebg-preview.png" alt="Logo Sehatin">
+                <p>
+                    Kesehatan bukanlah segalanya, tapi tanpa <br>
+                    KESEHATAN <br>
+                    segalanya menjadi tidak ada gunanya
+                </p>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th>ABOUT</th>
+                        <th>PRODUK & LAYANAN</th>
+                        <th>CONTACT</th>
+                        <th>SOCIAL</th>
+                    </tr>
+                    <tr>
+                        <td>KESEHATAN</td>
+                        <td>KONSULTASI DOKTER</td>
+                        <td>sehatinFS33@skilvul.com</td>
+                        <td><img src="assets/instagram.png" alt="Instagram" width="24px" height="24px"></td>
+                    </tr>
+                    <tr>
+                        <td>HEALTHY FOOD & DRINK</td>
+                        <td>CHALLANGE WORKOUT</td>
+                        <td>+62 222 3344 5566</td>
+                        <td><img src="assets/facebook.png" alt="Facebook" width="24px" height="24px"></td>
+                    </tr>
+                    <tr>
+                        <td>OLAHRAGA</td>
+                        <td>HEALTH INFORMATION</td>
+                        <td></td>
+                        <td><img src="assets/twitter.png" alt="Twitter" width="24px" height="24px"></td>
+                    </tr>
+                    <tr>
+                        <td>POLA TIDUR</td>
+                        <td></td>
+                        <td></td>
+                        <td><img src="assets/youtube.png" alt="Youtube" width="24px" height="24px"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <img class="line" src="assets/Line 3.jpg" alt="Line" width="1240" height="1">
+        <p id="copyright">Copyright@2023 All rights reserved | Design by Konohagakure FS-33</p>
+    </footer>
+    <!-- Bagian Akhir Footer -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
